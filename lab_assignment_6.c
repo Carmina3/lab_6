@@ -9,7 +9,6 @@ int search(int numbers[], int low, int high, int value)
 
 	if(numbers[mid]== value) //value is in the middle
         return mid;
-    //else if (numbers[mid]<value)
     else if (low==high)
         return mid;
     else if (numbers[mid]< value) //search right half
